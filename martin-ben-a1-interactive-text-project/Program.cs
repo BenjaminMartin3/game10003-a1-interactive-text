@@ -17,6 +17,8 @@ Console.WriteLine($"{playerName} had heard rumors of a strange and valuable arti
 Console.WriteLine($"{playerName} packed up some tools and other survival items and headed out.");
 Console.WriteLine($"{playerName} made their way to these ruins only to find that there seems to be no trace of an entrance,");
 Console.WriteLine($"All {playerName} seems to see is two torches, one lit, one extinguished.");
+Console.WriteLine($"{playerName} also notices a message on the wall that reads,");
+Console.WriteLine("The first step on your quest, is to light up the path in front of you.");
 Console.WriteLine($"{playerName} can do one of two things,");
 Console.WriteLine($"{playerName} can either light the extinguished torch, or extinguish the lit torch.");
 Console.WriteLine("What do you do? (light/extinguish)");
@@ -104,7 +106,7 @@ else
     Console.WriteLine($"{playerName} managed to dodge it and it explodes the door,");
     Console.WriteLine($"However, {playerName} was damaged by the explosion.");
     Console.WriteLine($"No matter, somehow {playerName} is still able to proceed.");
-    Console.WriteLine($"");
+    Console.WriteLine("");
     isInjured = true;
 }
 
