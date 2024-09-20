@@ -134,6 +134,8 @@ else
     Console.WriteLine($"However, {playerName} noticed a crack in the wall they could hide in.");
     Console.WriteLine("What do you do? (hide/accept fate)");
     string finalChoice = Console.ReadLine();
+
+    //Players choice to hide in crack or accept fate 
     if (finalChoice == "hide")
     {
         Console.WriteLine($"{playerName} makes their way over to the crack,");
